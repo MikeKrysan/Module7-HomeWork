@@ -8,7 +8,7 @@ public class StaticSuper {
         System.out.println("Родительский статический блок");
     }
 
-    StaticSuper {                                           //Ответ 1(Это конструктор, поэтому нужно добавить скобочки - StaticSuper() )
+    StaticSuper() {                                           //Ответ 1(Это конструктор, поэтому нужно добавить скобочки - StaticSuper() )
         System.out.println("Родительский конструктор");
     }
 }
